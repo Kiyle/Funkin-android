@@ -195,11 +195,11 @@ class Character extends FlxSprite
 				// DAD ANIMATION LOADING CODE
 				tex = Paths.getSparrowAtlas('Template');
 				frames = tex;
-				animation.addByPrefix('idle', 'Dad idle dance', 24);
-				animation.addByPrefix('singUP', 'Dad Sing Note UP', 24);
-				animation.addByPrefix('singRIGHT', 'Dad Sing Note RIGHT', 24);
-				animation.addByPrefix('singDOWN', 'Dad Sing Note DOWN', 24);
-				animation.addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24);
+				animation.addByPrefix('idle', 'Template idle dance', 24);
+				animation.addByPrefix('singUP', 'Template Sing Note UP', 24);
+				animation.addByPrefix('singRIGHT', 'Template Sing Note RIGHT', 24);
+				animation.addByPrefix('singDOWN', 'Template Sing Note DOWN', 24);
+				animation.addByPrefix('singLEFT', 'Template Sing Note LEFT', 24);
 
 				addOffset('idle');
 				addOffset("singUP", -6, 50);
